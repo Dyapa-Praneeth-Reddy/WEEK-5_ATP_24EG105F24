@@ -1,34 +1,60 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
     margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
 }
 
-.parent {
-    width: 900px;
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.jumbotron {
+    background-color: #eee;
+    padding: 60px 0;
+    margin-bottom: 20px;
+}
+
+.jumbotron h1 {
+    font-size: 50px;
+    margin-top: 0;
+}
+
+.jumbotron p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+}
+
+.btn-primary {
+    background-color: #007bff;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    font-size: 14px;
+}
+
+.row {
     display: flex;
-    justify-content: space-around;
-    gap: 10px;
-    border-radius: 30px;
-}
-img {
-    width: 250px;
+    gap: 30px;
+    margin-top: 30px;
 }
 
-.child {
-    box-shadow: 1px 1px 15px grey;
-    padding: 10px;
-    border-radius: 10px;
-    text-align: center;
+.col {
+    flex: 1;
 }
 
-h2 {
-    width: 180px;
-    height: 30px;
-    border-radius: 100px;
-    text-align: center;
-    box-shadow: 1px 1px 10px blue;
-    margin: 10px auto;
+footer {
+    padding: 20px 0;
+    border-top: 1px solid #ddd;
+    margin-top: 30px;
 }
