@@ -82,10 +82,12 @@ function App() {
       </main>
 
       <footer className="app-footer">
-        <p>&copy; {new Date().getFullYear()} User Directory. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} User Directory. All rights reserved.</p> 
       </footer>
     </div>
   );
 }
 
 export default App;
+
+

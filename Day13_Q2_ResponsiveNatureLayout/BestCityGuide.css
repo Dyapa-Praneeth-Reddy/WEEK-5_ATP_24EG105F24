@@ -42,12 +42,12 @@
     background: #35C5B9;
     color: white;
     text-align: center;
-    padding: 50px 20px;
+    padding: 10px 10px;
 }
 
 .hero-logo {
-    width: 120px;
-    margin-bottom: 20px;
+    width: 10px;
+    margin-bottom: 5px;
     border-radius: 50%;
 }
 
@@ -81,7 +81,7 @@
 
 .food-img {
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 @media (max-width: 768px) {
